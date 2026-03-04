@@ -1,0 +1,2 @@
+,timestamp,actor_user,target_user,ip,port,module,tty,pwd,command,pid,event_type
+0,Feb  6 00:15:13,root,root,172.20.0.2,39510,pam_unix,pts/1 ,/home/ubuntu ,/bin/su,313,session_opened

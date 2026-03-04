@@ -1,0 +1,68 @@
+,timestamp,hostname,program,actor_user,target_user,ip,port,module,tty,pwd,command,pid,event_type
+0,Feb  5 23:55:19,server,sudo,    root ,root ,,,,pts/1 ,/ ,/bin/tar -x --keep-directory-symlink -f /var/tmp/labsys.tar -C /,,
+1,Feb  5 23:55:19,server,sudo,,root,,,pam_unix,,,,,session_opened
+2,Feb  5 23:55:20,server,sudo,,root,,,pam_unix,,,,,session_closed
+3,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown -R ubuntu:ubuntu /home/ubuntu/.local,,
+4,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+5,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+6,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown root:root /,,
+7,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+8,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+9,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown root:root /sbin/,,
+10,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+11,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+12,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown root:root /sbin/faux_init,,
+13,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+14,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+15,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown root:root /etc/,,
+16,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+17,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+18,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown root:root /etc/xinetd.d/,,
+19,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+20,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+21,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown root:root /etc/xinetd.d/ssh,,
+22,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+23,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+24,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chown root:root /etc/xinetd.conf,,
+25,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+26,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+27,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/rm -f /run/nologin,,
+28,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+29,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+30,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,/home/ubuntu/.local/bin/ParameterParser.py ubuntu 4242913de93e68f83b1b12ae42e74f40 sshlab.server.student /home/ubuntu/.local/config/parameter.config,,
+31,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+32,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+33,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,"/bin/sed -i /^daemon...mail/,+3 d /etc/rsyslog.d/50-default.conf",,
+34,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+35,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+36,Feb  5 23:55:35,server,sudo,    root ,root ,,,,unknown ,/ ,"/bin/sed -i /^. Don.t log private.*/a :msg, !contains, ""apparmor"" /etc/rsyslog.conf",,
+37,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_opened
+38,Feb  5 23:55:35,server,sudo,,root,,,pam_unix,,,,,session_closed
+39,Feb  5 23:55:36,server,sudo,    root ,root ,,,,unknown ,/ ,/home/ubuntu/.local/bin/hookBash.sh /home/ubuntu,,
+40,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_opened
+41,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_closed
+42,Feb  5 23:55:36,server,sudo,    root ,root ,,,,unknown ,/ ,/usr/bin/apt-source.sh,,
+43,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_opened
+44,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_closed
+45,Feb  5 23:55:36,server,sudo,    root ,root ,,,,unknown ,/ ,/usr/bin/touch /sbin/consoletype,,
+46,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_opened
+47,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_closed
+48,Feb  5 23:55:36,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/chmod a+rwx /sbin/consoletype,,
+49,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_opened
+50,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_closed
+51,Feb  5 23:55:36,server,sudo,    root ,root ,,,,unknown ,/ ,/bin/mkdir -p /var/labtainer/did_param,,
+52,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_opened
+53,Feb  5 23:55:36,server,sudo,,root,,,pam_unix,,,,,session_closed
+54,Feb  6 00:09:43,server,sshd,,,172.20.0.2,39502,,,,,203,Connection_closed
+55,Feb  6 00:09:43,server,sshd,,,172.20.0.2,39504,,,,,205,Connection_closed
+56,Feb  6 00:10:05,server,sshd,ubuntu,,172.20.0.2,39506,,,,,207,Accepted_password
+57,Feb  6 00:10:05,server,sshd,,ubuntu,,,pam_unix,,,,207,session_opened
+58,Feb  6 00:10:06,server,sshd,,,172.20.0.2,39506,,,,,216,Received_disconnect
+59,Feb  6 00:10:06,server,sshd,,,,,,,,,216,
+60,Feb  6 00:10:06,server,sshd,,ubuntu,,,pam_unix,,,,207,session_closed
+61,Feb  6 00:12:58,server,sshd,ubuntu,,172.20.0.2,39510,,,,,221,Accepted_publickey
+62,Feb  6 00:12:58,server,sshd,,ubuntu,,,pam_unix,,,,221,session_opened
+63,Feb  6 00:15:13,server,sudo,  ubuntu ,root ,,,,pts/1 ,/home/ubuntu ,/bin/su,,
+64,Feb  6 00:15:13,server,sudo,,root,,,pam_unix,,,,,session_opened
+65,Feb  6 00:15:13,server,su,root,root,,,,,,,313,
+66,Feb  6 00:15:13,server,su,,root,,,pam_unix,,,,313,session_opened
